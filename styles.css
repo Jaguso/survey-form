@@ -16,5 +16,29 @@ body {
 }
 
 #description {
-  padding: 30px; 
+  padding-top: 30px; 
+  padding-bottom: 0px;
+}
+
+.rowTab {
+  width: 100%;
+}
+
+.leftTab {
+  display: inline-block;
+  text-align: right;
+  background-color: lightblue;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  background-color: lightgreen;
+}
+
+.left {
+  text-align: right;
+}
+.right {
+  text-align: left;
 }
