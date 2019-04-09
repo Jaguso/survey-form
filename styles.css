@@ -5,3 +5,16 @@ body {
   text-align: center;
   font-family: 'Raleway', Helvetica, sans-serif;
 }
+
+#main {
+  background-color: #fff;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+
+#description {
+  padding: 30px; 
+}
