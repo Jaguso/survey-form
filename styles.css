@@ -21,19 +21,21 @@ body {
 }
 
 .rowTab {
-  width: 100%;
+  display: flex;
 }
 
 .leftTab {
-  display: inline-block;
-  text-align: right;
+  display: flex;
+  /* text-align: right; */
   background-color: lightblue;
+  justify-content: flex-end;
 }
 
 .rightTab {
-  display: inline-block;
-  text-align: left;
+  display: flex;
+
   background-color: lightgreen;
+
 }
 
 .left {
