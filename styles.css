@@ -22,20 +22,21 @@ body {
 
 .rowTab {
   display: flex;
+  justify-content: center;
 }
 
 .leftTab {
   display: flex;
-  /* text-align: right; */
-  background-color: lightblue;
   justify-content: flex-end;
+  background-color: lightblue;
+  width: 50%;
 }
 
 .rightTab {
   display: flex;
-
+  justify-content: flex-start;
   background-color: lightgreen;
-
+  width: 50%;
 }
 
 .left {
