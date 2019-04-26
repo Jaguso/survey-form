@@ -61,3 +61,13 @@ input {
 .input-select {
   margin-left: 10px;
 }
+
+button {
+  color: white;
+  background-color: dodgerblue;
+  height: 40px;
+  width: 90px;
+  border: 1px solid;
+  border-color: dodgerblue;
+  border-radius: 3px;
+}
