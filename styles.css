@@ -71,3 +71,7 @@ button {
   border-color: dodgerblue;
   border-radius: 3px;
 }
+
+.textarea {
+  height: 80px;
+}

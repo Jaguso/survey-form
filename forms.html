@@ -60,11 +60,41 @@
             <label>How likely is that you would recommend freeCodeCamp to a friend?:</label>
           </div>
           <div class="rightTab">
-            <input>
+            <input type="text">
           </div>
         </div>
 
-        
+        <div class="rowTab">
+          <div class="leftTab">
+            <label>Which is your gender?</label>
+          </div>
+          <div class="rightTab">
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+          </div>
+        </div>
+
+        <div class="rowTab">
+          <div class="leftTab">
+            <label>Do you have any of these?</label>
+          </div>
+          <div class="rightTab">
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car<br>
+            <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat<br>
+          </div>
+        </div>
+
+        <div class="rowTab">
+          <div class="leftTab">
+            <label>Additional comments: </label>
+          </div>
+          <div class="rightTab">
+            <textarea class="textarea"></textarea>
+          </div>
+
+        </div>
 
         <button id="submit" type="submit">Submit</button>
 
