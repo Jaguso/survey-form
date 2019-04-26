@@ -18,28 +18,28 @@
 
         <div class="rowTab">
           <div class="leftTab">
-            <label id="name-label" type="text">* Name: </label>
+            <label id="name-label" for="name">* Name: </label>
           </div>
           <div class="rightTab">
-            <input id="name" type="text" placeholder="name">
+            <input id="name" type="text" name="name" placeholder="name">
           </div>
         </div>
 
         <div class="rowTab">
           <div class="leftTab">
-            <label id="email-label">* Email: </label>
+            <label id="email-label" for="email">* Email: </label>
           </div>
           <div class="rightTab">
-            <input id="email" type="email" placeholder="email">
+            <input id="email" type="email" name="email" placeholder="email">
           </div>  
         </div>
         
         <div class="rowTab">
           <div class="leftTab">
-            <label id="number-label">* Age: </label>
+            <label id="number-label" for="age">* Age: </label>
           </div>
           <div class="rightTab">
-            <input id="number" type="number" min="0" max="100" placeholder="age">
+            <input id="number" type="number" name="age" min="0" max="100" placeholder="age">
           </div>
         </div>
 
@@ -48,7 +48,7 @@
             <label>Which option best describes your current role? </label>
           </div>
           <div class="rightTab">
-            <select class="dropdown">
+            <select id="dropdown">
               <option>Val1</option>
               <option>Val2</option>
             </select>
