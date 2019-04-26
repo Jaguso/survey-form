@@ -29,14 +29,14 @@ body {
 .leftTab {
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  width: 48%;
   text-align: right;
 }
 
 .rightTab {
   display: flex;
   justify-content: flex-start;
-  width: 50%;
+  width: 52%;
 }
 
 .left {

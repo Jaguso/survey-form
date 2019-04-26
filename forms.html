@@ -18,7 +18,7 @@
 
         <div class="rowTab">
           <div class="leftTab">
-            <label>* Name: </label>
+            <label id="name-label">* Name: </label>
           </div>
           <div class="rightTab">
             <input id="name" type="text">
@@ -27,7 +27,7 @@
 
         <div class="rowTab">
           <div class="leftTab">
-            <label>* Email: </label>
+            <label id="email-label">* Email: </label>
           </div>
           <div class="rightTab">
             <input type="email">
@@ -36,10 +36,10 @@
         
         <div class="rowTab">
           <div class="leftTab">
-            <label>* Age: </label>
+            <label id="age-label">* Age: </label>
           </div>
           <div class="rightTab">
-            <input type="number">
+            <input id="number" type="number" min="0" max="100">
           </div>
         </div>
 
@@ -63,7 +63,7 @@
             <input>
           </div>
         </div>
-        <button>Submit</button>
+        <button id="submit" type="submit">Submit</button>
 
       </form>
     </div>
