@@ -39,6 +39,23 @@ body {
   width: 52%;
 }
 
+.rightTab-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 52%;
+}
+
+.sub-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+
 .left {
   text-align: right;
 }
@@ -58,7 +75,7 @@ input {
   border-radius: 3px;
 }
 
-.dropdown {
+#dropdown {
   margin-left: 10px;
 }
 
