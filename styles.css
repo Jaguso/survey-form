@@ -6,11 +6,15 @@ body {
   font-family: 'Raleway', Helvetica, sans-serif;
 }
 
+#title {
+  margin: 20px;
+}
+
 #main {
   background-color: #fff;
   width: 70%;
   height: 100%;
-  margin: auto;
+  margin: 30px auto;
   border-radius: 5px;
   padding-bottom: 30px;
 }
